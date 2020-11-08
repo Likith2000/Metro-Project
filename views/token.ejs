@@ -1,0 +1,18 @@
+<%- include("partials/header") -%>
+<h1>Add Passenger Details</h1>
+<form method="POST">
+    <div class="padding row form-group">
+        <div class="col-md-4">
+            <label for="ss">Starting Station</label>
+            <input type="text" class="form-control" id="ss" name="ss">
+        </div>
+    </div>
+    <div class="padding row form-group">
+        <div class="col-md-4">
+            <label for="es">Ending Station</label>
+            <input type="text" class="form-control" id="es" name="es">
+        </div>
+    </div>
+    <button type="submit" class="padding btn btn-lg btn-primary">Issue Token</button>
+</form>
+<%- include("partials/footer") -%>
